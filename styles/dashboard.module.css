@@ -1,0 +1,85 @@
+.dashboard {
+    background-color: #EBECED;
+}
+
+.navBar {
+    position: absolute;
+    display: flex;
+    height: 100vh;
+    width: var(--navBarWidth);
+    background-color: #333C47;
+}
+
+.bodyDashboard {
+    position: relative;
+    height: 100vh;
+    margin-left: calc(var(--navBarWidth) + 1rem);
+    background-color: #EBECED;
+    color: #6c757d;
+
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    padding: 10px;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    gap: 9px 11px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "lastPrice lastPrice lastPrice moveAverage moveAverage moveAverage correlStock correlStock correlStock"
+      "lastPrice lastPrice lastPrice moveAverage moveAverage moveAverage correlStock correlStock correlStock"
+      "lastPrice lastPrice lastPrice moveAverage moveAverage moveAverage correlStock correlStock correlStock"
+      "historyPrice historyPrice historyPrice chartPriceOne chartPriceOne chartPriceOne chartPriceOne chartPriceOne chartPriceOne"
+      "historyPrice historyPrice historyPrice chartPriceOne chartPriceOne chartPriceOne chartPriceOne chartPriceOne chartPriceOne"
+      "historyPrice historyPrice historyPrice chartPriceOne chartPriceOne chartPriceOne chartPriceOne chartPriceOne chartPriceOne"
+      "historyPrice historyPrice historyPrice chartPriceTwo chartPriceTwo chartPriceTwo chartPriceTwo chartPriceTwo chartPriceTwo"
+      "historyPrice historyPrice historyPrice chartPriceTwo chartPriceTwo chartPriceTwo chartPriceTwo chartPriceTwo chartPriceTwo"
+      "historyPrice historyPrice historyPrice chartPriceTwo chartPriceTwo chartPriceTwo chartPriceTwo chartPriceTwo chartPriceTwo";
+  }
+  
+
+  .lastPrice,
+  .moveAverage,
+  .correlStock,
+  .chartPriceOne,
+  .chartPriceTwo,
+  .historyPrice {
+      background-color: var(--bgColor);
+      border-radius: 10px;
+      -webkit-box-shadow: 0px 0px 15px -8px #000000; 
+      box-shadow: 0px 0px 15px -8px #000000;
+      display: flex;
+      justify-content: space-around;
+    }
+
+  .lastPrice {
+    grid-area: lastPrice;
+
+    }
+  
+  .moveAverage {
+      grid-area: moveAverage;
+    }
+  
+  .correlStock {
+      grid-area: correlStock;
+    
+    }
+  
+  .chartPriceOne {
+      grid-area: chartPriceOne;
+
+    }
+  
+  .chartPriceTwo {
+      grid-area: chartPriceTwo;
+
+    }
+  
+  .historyPrice {
+      grid-area: historyPrice;
+
+    }
+  
