@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div className={styles.headLine}>
+
       <h1>Seja Bem-Vindo</h1>
       <h2>Escolha duas ações</h2>
 
@@ -14,7 +15,6 @@ export default function Home() {
         </div>
 
         <div className={styles.buttons}>
-          <Button href="#" text="LIMPAR"/>
           <Button href="/dashboard" text="BUSCAR"/>
         </div>
       </form>

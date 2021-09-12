@@ -12,9 +12,7 @@
 
 .headLine h2 { font-size: 2rem; }
 
-.input {
-  display: flex;
-}
+.input { display: flex; }
 
 .inputs input {
   width: 358px;

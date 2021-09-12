@@ -1,0 +1,26 @@
+.containerStock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.containerCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.LastPrice {
+    color: #6169d0;
+    font-weight: 700;
+}
+
+.positive {
+    color: #0acf97;
+}
+
+.negative {
+    color: #fa5c7c;
+}

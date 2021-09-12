@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+}
+
+.containerPeriod {
+    display: flex;
+    justify-content: center;
+}
+
+.numPeriod {
+    border: 1px solid #ccc;
+    padding: 6px;
+    margin: 0px 10px;
+    font-size: 1.2rem;
+    width: 12rem;
+}
+
+.positive {
+    color: #0acf97;
+}
+
+.negative {
+    color: #fa5c7c;
+}
+
+.price {
+    color: #6169d0;
+}
+
+.h4 {
+    font-weight: 700;
+}

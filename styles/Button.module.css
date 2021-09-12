@@ -14,7 +14,24 @@
     transition: all 0.5s ease;
   }
 
-  .button:hover {
+  .buttonDash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    background-color: #6169d0;
+    border: 2px solid #6169d0;
+    color: #FFF;
+    border: 0;
+    border-radius: 100%;
+    font-size: 1.2rem;
+    margin: 10px;
+    transition: all 0.5s ease;
+  }
+
+  .button:hover,
+  .buttonDash:hover {
     background-color: transparent;
     border: 2px solid #6169d0;
     color: #FFF;
