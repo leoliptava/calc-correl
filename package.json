@@ -9,11 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nivo/bar": "^0.73.1",
+    "@nivo/core": "^0.73.0",
     "axios": "^0.21.3",
+    "chart.js": "^3.5.1",
     "material-design-icons": "^3.0.1",
     "materialize-css": "^1.0.0-rc.2",
     "next": "11.1.2",
     "react": "17.0.2",
+    "react-chartjs-2": "^3.0.4",
     "react-dom": "17.0.2",
     "react-icons": "^4.2.0"
   },

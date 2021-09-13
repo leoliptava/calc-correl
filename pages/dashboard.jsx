@@ -4,6 +4,8 @@ import LastPrice from "../components/LastPrice";
 import MovingAverage from "../components/MovingAverage";
 import CorrelationStock from "../components/CorrelationStock";
 import HistoryPriceStocks from "../components/HistoryPriceStocks";
+import ChartOne from '../components/ChartOne';
+import ChartTwo from '../components/ChartTwo';
 
 
 
@@ -29,10 +31,10 @@ export default function Dashboard () {
                         <CorrelationStock />
                     </div>
                     <div className={styles.chartPriceOne}>
-                        <h1>CHART STOCK ONE</h1>
+                        <ChartOne />
                     </div>
                     <div className={styles.chartPriceTwo}>
-                        <h1>CHART STOCK TWO</h1>
+                        <ChartTwo />
                     </div>
                     <div className={styles.historyPrice}>
                         <HistoryPriceStocks />
