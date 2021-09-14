@@ -6,6 +6,7 @@ import CorrelationStock from "../components/CorrelationStock";
 import HistoryPriceStocks from "../components/HistoryPriceStocks";
 import ChartOne from '../components/ChartOne';
 import ChartTwo from '../components/ChartTwo';
+import App from '../components/App';
 
 
 

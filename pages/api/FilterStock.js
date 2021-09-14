@@ -7,6 +7,14 @@ const API_PERIOD = "Weekly Time Series"
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
 
+    symbolStock: async () => {
+        let dataFrame = await ApiStock.getStockData();
+
+        let dfTimeSeries = dataFrame["Meta Data"]
+
+        return dfTimeSeries
+    },
+
     dateStock: async () => {
         let dataFrame = await ApiStock.getStockData();
         let dfTimeSeries = dataFrame[`${API_PERIOD}`]

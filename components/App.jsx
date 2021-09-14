@@ -5,11 +5,8 @@ export function App() {
 
     useEffect(() => {
         const loadAll = async () => {
-            let dfEma = FilterStock.getEMA();
-            let dfClosed = FilterStock.closeStock();
-            let dfDate = FilterStock.dateStock();
-
-            
+        
+            let df = FilterStock.dateStock()
         
         }
         

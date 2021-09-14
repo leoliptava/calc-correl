@@ -1,5 +1,5 @@
 const API_KEY = 'demo'
-const API_URL_STOCK = `https://www.alphavantage.co/query?function=TIME_SERIES_WEEKLY&symbol=IBM&apikey=demo`
+const API_URL_STOCK = `https://www.alphavantage.co/query?function=TIME_SERIES_WEEKLY&symbol=IBM.SA&apikey=R12W57PGR0V3REDZ`
 const API_URL_EMA = `https://www.alphavantage.co/query?function=EMA&symbol=IBM&interval=weekly&time_period=10&series_type=open&apikey=${API_KEY}`
 
 
